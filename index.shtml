@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Construction Company</title>
+    <!--#include file="includes/meta-tags.html" -->
+</head>
+<body>
+    <!--#include file="includes/header.html" -->
+    <section class="banner-section split-aesthetic">
+      <div class="banner-right-img"></div>
+      
+      <div class="fluid-container banner-content align-left">
+        <div class="mixed-typography">
+            <div class="top-label"><span class="dot"></span> CONSTRUCTION EXPERIENCE STUDIO</div>
+            
+            <div class="heading-line line-1"><span class="text-italic text-gray">We</span> <span class="text-outline">build</span> <span class="star-icon">✦</span></div>
+            <div class="heading-line line-2">premium <span class="text-red">structures</span></div>
+            <div class="heading-line line-3"><span class="text-italic text-gray">that</span> <span class="text-underline">define</span></div>
+            <div class="heading-line line-4 text-red text-italic-script">skylines</div>
+            
+            <a href="#" class="btn-primary btn-red mt-10">START YOUR PROJECT</a>
+        </div>
+      </div>
+    </section>
+    
+</body>
+</html>
