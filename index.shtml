@@ -1,27 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Construction Company</title>
+    <title>Square ft Group - Precision Built</title>
     <!--#include file="includes/meta-tags.html" -->
 </head>
 <body>
     <!--#include file="includes/header.html" -->
-    <section class="banner-section split-aesthetic">
-      <div class="banner-right-img"></div>
-      
-      <div class="fluid-container banner-content align-left">
-        <div class="mixed-typography">
-            <div class="top-label"><span class="dot"></span> CONSTRUCTION EXPERIENCE STUDIO</div>
-            
-            <div class="heading-line line-1"><span class="text-italic text-gray">We</span> <span class="text-outline">build</span> <span class="star-icon">✦</span></div>
-            <div class="heading-line line-2">premium <span class="text-red">structures</span></div>
-            <div class="heading-line line-3"><span class="text-italic text-gray">that</span> <span class="text-underline">define</span></div>
-            <div class="heading-line line-4 text-red text-italic-script">skylines</div>
-            
-            <a href="#" class="btn-primary btn-red mt-10">START YOUR PROJECT</a>
-        </div>
-      </div>
-    </section>
     
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg" style="background-image: url('images/hero-bg.jpg');"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="text-display-hero hero-title" data-aos="fade-down">
+                    Building Strength.<br/><span class="highlight">Delivering Trust.</span>
+                </h1>
+                <p class="text-body-lg hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                    Precision engineering and premium construction services for high-end residential and commercial projects. We build to last.
+                </p>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <a class="btn btn-primary" href="#contact">Get Free Estimate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Stats Section -->
+        <section class="section section--white" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text" data-aos="fade-right">
+                        <div>
+                            <span class="section-label">Our Foundation</span>
+                            <h2 class="text-h1">Engineered for Excellence</h2>
+                        </div>
+                        <p class="text-body-md">
+                            With over a decade of industry leadership, SQUARE FT GROUP combines architectural vision with structural integrity. We don't just manage construction; we command every detail to ensure flawless execution. Our commitment to quality has established us as the premier choice for clients who demand perfection.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="text-stat-number stat-number" data-count="10" data-suffix="+">0</span>
+                                <span class="text-label-caps stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="text-stat-number stat-number" data-count="150" data-suffix="+">0</span>
+                                <span class="text-label-caps stat-label">Projects Delivered</span>
+                            </div>
+                        </div>
+                        <div class="about-trust">
+                            <div class="trust-badge">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
+                                RERA Registered
+                            </div>
+                            <div class="trust-badge">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+                                ISO Certified
+                            </div>
+                            <div class="trust-badge">
+                                <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">shield</span>
+                                Insured Projects
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="about-image-inner" style="background-image: url('images/foundation-bg.jpg');"></div>
+                        <div class="about-image-badge">
+                            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">architecture</span>
+                            <span class="text-label-caps">Precision Built</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section section--grey" id="services">
+            <div class="container services-content">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-label">Expertise</span>
+                    <h2 class="text-h1">Core Services</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">home_work</span>
+                        </div>
+                        <h3 class="text-h3">Residential</h3>
+                        <p class="text-body-md">
+                            Bespoke luxury homes built with uncompromising quality and attention to detail from foundation to finish.
+                        </p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">domain</span>
+                        </div>
+                        <h3 class="text-h3">Commercial</h3>
+                        <p class="text-body-md">
+                            High-performance commercial facilities engineered for operational efficiency and professional impact.
+                        </p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">handyman</span>
+                        </div>
+                        <h3 class="text-h3">Renovation</h3>
+                        <p class="text-body-md">
+                            Strategic structural modifications and premium upgrades to revitalize existing spaces with modern standards.
+                        </p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">engineering</span>
+                        </div>
+                        <h3 class="text-h3">Structural Design</h3>
+                        <p class="text-body-md">
+                            Rigorous engineering and architectural planning to ensure safety, durability, and code compliance.
+                        </p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <span class="material-symbols-outlined">chair</span>
+                        </div>
+                        <h3 class="text-h3">Interior</h3>
+                        <p class="text-body-md">
+                            Seamless integration of structural build and high-end interior finishes for a cohesive, turnkey result.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Process Section -->
+        <section class="section process-section">
+            <div class="process-bg" style="background-image: url('images/orange-bg.png');"></div>
+            <div class="process-overlay"></div>
+            <div class="process-content">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-label">How We Work</span>
+                    <h2 class="text-h1">Our Process</h2>
+                </div>
+                <div class="process-steps">
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="0">
+                        <h3>Planning</h3>
+                        <p>We analyze your requirements, site conditions, and budget to create a comprehensive project roadmap.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="150">
+                        <h3>Design</h3>
+                        <p>Our architects craft detailed blueprints that balance aesthetics, functionality, and structural integrity.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Build</h3>
+                        <p>Expert teams execute with precision using premium materials and rigorous quality checkpoints.</p>
+                    </div>
+                    <div class="process-step" data-aos="fade-up" data-aos-delay="450">
+                        <h3>Deliver</h3>
+                        <p>Final inspections, client walkthrough, and handover — on time, on budget, beyond expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Construction Packages Section -->
+        <section class="section packages-section" id="packages">
+            <div class="packages-content">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-label">Transparent Pricing</span>
+                    <h2 class="text-h1">Construction Packages</h2>
+                    <p class="text-body-md">Choose a package that fits your vision. Every tier delivers uncompromising quality.</p>
+                </div>
+                <div class="packages-grid">
+                    <!-- Basic -->
+                    <div class="package-card" data-aos="fade-up" data-aos-delay="0">
+                        <span class="package-tier">Starter</span>
+                        <div class="package-name">Basic</div>
+                        <div class="package-price">
+                            <span class="amount">₹1,940</span>
+                            <span class="unit">/ sq.ft</span>
+                        </div>
+                        <p class="package-desc">A budget-friendly package with no compromise on structural quality. All construction essentials included.</p>
+                        <span class="package-highlights-title">Highlights</span>
+                        <ul class="package-highlights">
+                            <li>Trusted brand steel &amp; cement</li>
+                            <li>Standard floor tiles upto ₹50/sqft</li>
+                            <li>Standard flush doors &amp; window finish</li>
+                            <li>Tractor Emulsion finish</li>
+                            <li>Essential kitchen &amp; bathroom fittings</li>
+                        </ul>
+                        <a class="package-cta" href="#contact">Request Quote</a>
+                    </div>
+                    <!-- Classic (Featured) -->
+                    <div class="package-card featured" data-aos="fade-up" data-aos-delay="100">
+                        <span class="package-badge">Popular</span>
+                        <span class="package-tier">Best Value</span>
+                        <div class="package-name">Classic</div>
+                        <div class="package-price">
+                            <span class="amount">₹2,070</span>
+                            <span class="unit">/ sq.ft</span>
+                        </div>
+                        <p class="package-desc">Our best-seller with upgraded brands like Jindal Steels, Hindware at a considerable price advantage.</p>
+                        <span class="package-highlights-title">Highlights</span>
+                        <ul class="package-highlights">
+                            <li>Superior brand steel &amp; cement</li>
+                            <li>Refined floor tiles upto ₹100/sqft</li>
+                            <li>Elegant teak doors &amp; window finish</li>
+                            <li>Tractor Shyne Emulsion finish</li>
+                            <li>Stylish kitchen &amp; bathroom fittings</li>
+                        </ul>
+                        <a class="package-cta" href="#contact">Request Quote</a>
+                    </div>
+                    <!-- Premium -->
+                    <div class="package-card" data-aos="fade-up" data-aos-delay="200">
+                        <span class="package-tier">Elevated</span>
+                        <div class="package-name">Premium</div>
+                        <div class="package-price">
+                            <span class="amount">₹2,400</span>
+                            <span class="unit">/ sq.ft</span>
+                        </div>
+                        <p class="package-desc">An elegant package crafted for modern living with provisions like solar heater, puja room, EV setup.</p>
+                        <span class="package-highlights-title">Highlights</span>
+                        <ul class="package-highlights">
+                            <li>Superior brand steel &amp; cement</li>
+                            <li>Premium floor tiles upto ₹140/sqft</li>
+                            <li>Designer teak doors &amp; window finish</li>
+                            <li>Apcolite Premium finish</li>
+                            <li>Quality kitchen &amp; bathroom fittings</li>
+                        </ul>
+                        <a class="package-cta" href="#contact">Request Quote</a>
+                    </div>
+                    <!-- Royale -->
+                    <div class="package-card" data-aos="fade-up" data-aos-delay="300">
+                        <span class="package-tier">Luxury</span>
+                        <div class="package-name">Royale</div>
+                        <div class="package-price">
+                            <span class="amount">₹2,640</span>
+                            <span class="unit">/ sq.ft</span>
+                        </div>
+                        <p class="package-desc">The ultimate plan with high-end finishes, EV charging, copper gas connection, and luxury amenities.</p>
+                        <span class="package-highlights-title">Highlights</span>
+                        <ul class="package-highlights">
+                            <li>Superior brand steel &amp; cement</li>
+                            <li>Lavish floor tiles upto ₹160/sqft</li>
+                            <li>Designer teak doors &amp; window finish</li>
+                            <li>Apex Ultima Exterior finish</li>
+                            <li>Lavish fittings for kitchen &amp; bathroom</li>
+                        </ul>
+                        <a class="package-cta" href="#contact">Request Quote</a>
+                    </div>
+                </div>
+                <p class="packages-footer" data-aos="fade-up">For a complete list of offerings, <a href="#contact">Compare Packages</a></p>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="section section--white" id="why-choose-us">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-label">Excellence Defined</span>
+                    <h2 class="text-h1">Why Choose Us</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="0">
+                        <div class="feature-icon">
+                            <span class="material-symbols-outlined">architecture</span>
+                        </div>
+                        <h3>Quality Materials</h3>
+                        <p class="text-body-md">
+                            We use only the highest grade materials to ensure the longevity and strength of every structure.
+                        </p>
+                    </div>
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-icon">
+                            <span class="material-symbols-outlined">schedule</span>
+                        </div>
+                        <h3>On-Time Delivery</h3>
+                        <p class="text-body-md">
+                            Our project management ensures every milestone is met on schedule, without compromising quality.
+                        </p>
+                    </div>
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <span class="material-symbols-outlined">engineering</span>
+                        </div>
+                        <h3>Expert Engineers</h3>
+                        <p class="text-body-md">
+                            Our team of certified professionals brings decades of collective experience to your project.
+                        </p>
+                    </div>
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-icon">
+                            <span class="material-symbols-outlined">account_balance_wallet</span>
+                        </div>
+                        <h3>Transparent Pricing</h3>
+                        <p class="text-body-md">
+                            No hidden costs. We provide clear, detailed estimates and maintain financial integrity throughout.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div>
+                            <span class="section-label">Get In Touch</span>
+                            <h2 class="text-h1">Let's Build Something Extraordinary</h2>
+                        </div>
+                        <p class="text-body-md">Tell us about your project and we'll get back within 24 hours with a free estimate.</p>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><span class="material-symbols-outlined">call</span></div>
+                                <span>+91 98765 43210</span>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><span class="material-symbols-outlined">mail</span></div>
+                                <span>contact@squareftgroup.com</span>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="icon-box"><span class="material-symbols-outlined">location_on</span></div>
+                                <span>Bangalore, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" data-aos="fade-left">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="project-type">Project Type</label>
+                                <select id="project-type" name="project_type">
+                                    <option value="">Select type</option>
+                                    <option value="residential">Residential</option>
+                                    <option value="commercial">Commercial</option>
+                                    <option value="renovation">Renovation</option>
+                                    <option value="interior">Interior</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Select budget</option>
+                                    <option value="under-30l">Under ₹30 Lakhs</option>
+                                    <option value="30-60l">₹30 - 60 Lakhs</option>
+                                    <option value="60l-1cr">₹60 Lakhs - 1 Cr</option>
+                                    <option value="above-1cr">Above ₹1 Cr</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Get Free Estimate</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!--#include file="includes/footer.html" -->
 </body>
 </html>

@@ -1,57 +1,220 @@
-@media (max-width: 1024px) {
-  .heading-line {
-    font-size: 60px;
-  }
-  .line-4 {
-    font-size: 75px;
-    width: 90%;
-  }
-  .banner-right-img {
-    width: 50%;
-  }
+/* ===== Large Desktop (1024px+) ===== */
+@media (min-width: 1024px) {
+    .container {
+        padding: 0 48px;
+    }
+    .header-inner {
+        padding: 20px 48px;
+    }
+    .hero-content {
+        padding: 0 48px;
+    }
 }
 
+/* ===== Tablet & Below (max 1024px) ===== */
+@media (max-width: 1024px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-steps {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .process-step:nth-child(2)::after {
+        display: none;
+    }
+
+    .packages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .package-card.featured {
+        transform: none;
+    }
+
+    .package-card.featured:hover {
+        transform: translateY(-8px);
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-cta-strip {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-display-hero {
+        font-size: 56px;
+    }
+
+    .text-h1 {
+        font-size: 40px;
+    }
+}
+
+/* ===== Mobile (max 768px) ===== */
 @media (max-width: 768px) {
-  .banner-right-img {
-    width: 100%;
-    opacity: 0.3;
-    mask-image: linear-gradient(to bottom, transparent 0%, black 50%);
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 50%);
-  }
-  .heading-line {
-    font-size: 50px;
-    justify-content: center;
-  }
-  .mixed-typography {
-    align-items: center;
-    text-align: center;
-  }
-  .line-4 {
-    font-size: 65px;
-    width: 100%;
-    justify-content: center;
-  }
-  .btn-primary.btn-red {
-    font-size: 14px;
-    padding: 15px 30px;
-  }
-  .banner-content.align-left {
-    justify-content: center;
-  }
+    :root {
+        --section-padding: 80px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .header-cta {
+        display: none;
+    }
+
+    .header-phone {
+        display: none;
+    }
+
+    .header-actions {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .text-display-hero {
+        font-size: 42px;
+    }
+
+    .text-h1 {
+        font-size: 32px;
+    }
+
+    .text-h3 {
+        font-size: 20px;
+    }
+
+    .text-stat-number {
+        font-size: 32px;
+    }
+
+    .hero {
+        min-height: 70vh;
+    }
+
+    .about-image {
+        height: 400px;
+    }
+
+    .about-text {
+        border-left: 3px solid var(--brand-red);
+        padding-left: var(--stack-md);
+    }
+
+    .about-trust {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .about-image-badge {
+        bottom: -16px;
+        left: -16px;
+        padding: 20px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .process-step::after {
+        display: none !important;
+    }
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-cta-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-bottom-inner {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 16px 32px;
+    }
+}
+
+/* ===== Small Mobile (max 480px) ===== */
+@media (max-width: 480px) {
+    :root {
+        --section-padding: 60px;
+    }
+
+    .text-display-hero {
+        font-size: 36px;
+    }
+
+    .text-h1 {
+        font-size: 28px;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .about-image {
+        height: 300px;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== Contact form responsive ===== */
+@media (max-width: 1024px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
 }
 
 @media (max-width: 480px) {
-  .heading-line {
-    font-size: 40px;
-  }
-  .line-4 {
-    font-size: 50px;
-  }
-  .top-label {
-    font-size: 11px;
-    letter-spacing: 2px;
-  }
-  .star-icon {
-    font-size: 30px;
-  }
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        padding: 24px;
+    }
 }
