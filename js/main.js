@@ -145,4 +145,16 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Back to Top visibility
+    const backToTopBtn = document.getElementById('backToTop');
+    if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 400) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+    }
 });
