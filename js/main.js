@@ -2,6 +2,50 @@ document.addEventListener('DOMContentLoaded', () => {
     // Init AOS
     AOS.init({ duration: 800, once: true, offset: 100 });
 
+    // Services Swiper
+    const servicesSwiper = new Swiper('.services-swiper', {
+        slidesPerView: 1.15,
+        spaceBetween: 20,
+        speed: 600,
+        grabCursor: true,
+        navigation: {
+            prevEl: '.services-prev',
+            nextEl: '.services-next',
+        },
+        scrollbar: {
+            el: '.services-scrollbar',
+            draggable: true,
+            snapOnRelease: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1.8,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 24,
+            },
+        },
+    });
+
+    // Packages tab switching
+    const pkgTabs = document.querySelectorAll('.pkg-tab');
+    const pkgPanels = document.querySelectorAll('.pkg-panel');
+
+    pkgTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const target = tab.dataset.tab;
+
+            pkgTabs.forEach(t => t.classList.remove('active'));
+            pkgPanels.forEach(p => p.classList.remove('active'));
+
+            tab.classList.add('active');
+            const panel = document.querySelector(`.pkg-panel[data-panel="${target}"]`);
+            if (panel) panel.classList.add('active');
+        });
+    });
+
     // Counter animation
     const counters = document.querySelectorAll('[data-count]');
     const counterObserver = new IntersectionObserver((entries) => {

@@ -17,9 +17,7 @@
         grid-template-columns: 1fr;
     }
 
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
 
     .features-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -133,12 +131,41 @@
         padding: 20px;
     }
 
-    .services-grid {
+    .service-link {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .services-header-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .wcu-split {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .wcu-left {
+        position: static;
+    }
+
+    .wcu-right {
         grid-template-columns: 1fr;
     }
 
-    .features-grid {
-        grid-template-columns: 1fr;
+    .wcu-image {
+        height: 300px;
+    }
+
+    .wcu-feature:nth-child(n) {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .wcu-feature:last-child {
+        border-bottom: none;
     }
 
     .process-steps {
@@ -149,8 +176,38 @@
         display: none !important;
     }
 
-    .packages-grid {
+    .pkg-tabs {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .pkg-tab {
+        min-width: 120px;
+        padding: 16px 12px;
+    }
+
+    .pkg-tab-name {
+        font-size: 14px;
+    }
+
+    .pkg-panel {
         grid-template-columns: 1fr;
+    }
+
+    .pkg-panel-left {
+        padding: 32px 24px;
+    }
+
+    .pkg-panel-title {
+        font-size: 28px;
+    }
+
+    .pkg-panel-price .amount {
+        font-size: 36px;
+    }
+
+    .pkg-panel-right {
+        min-height: 280px;
     }
 
     .footer-links {
