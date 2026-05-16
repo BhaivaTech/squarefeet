@@ -27,21 +27,23 @@
             </div>
         </section> -->
 
-        <section class="banner-section split-aesthetic">
-            <div class="banner-right-img"></div>
-
-            <div class="fluid-container banner-content align-left">
-                <div class="mixed-typography">
-                    <div class="top-label"><span class="dot"></span> CONSTRUCTION EXPERIENCE STUDIO</div>
-
-                    <div class="heading-line line-1"><span class="text-italic text-gray">We</span> <span
-                            class="text-outline">build</span> <span class="star-icon">✦</span></div>
-                    <div class="heading-line line-2">premium <span class="text-red">structures</span></div>
-                    <div class="heading-line line-3"><span class="text-italic text-gray">that</span> <span
-                            class="text-underline">define</span></div>
-                    <div class="heading-line line-4 text-red text-italic-script">skylines</div>
-
-                    <a href="#" class="btn-primary btn-red mt-10">START YOUR PROJECT</a>
+        <section class="hero-modern">
+            <div class="hero-modern-bg"></div>
+            <div class="container hero-modern-content">
+                <div class="hero-modern-text">
+                    <div class="hero-badge-tag" data-aos="fade-down">
+                        <span class="dot"></span>
+                        <span>Excellence In Modern Construction</span>
+                    </div>
+                    <h1 class="hero-modern-title" data-aos="fade-right" data-aos-delay="100">
+                       Precision Construction For <br>
+                        <span class="text-outline">Modern Living</span>
+                    </h1>
+                    
+                    <div class="hero-modern-actions" data-aos="fade251-up" data-aos-delay="500">
+                        <a href="#contact" class="btn-premium-red">Start Your Project</a>
+                        <a href="#services" class="btn-premium-outline">View Our Work</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -62,27 +64,27 @@
                             choice for clients who demand perfection.
                         </p>
                         <div class="about-stats">
-                            <div class="stat-item">
+                            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
                                 <span class="text-stat-number stat-number" data-count="10" data-suffix="+">0</span>
                                 <span class="text-label-caps stat-label">Years Experience</span>
                             </div>
-                            <div class="stat-item">
+                            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
                                 <span class="text-stat-number stat-number" data-count="150" data-suffix="+">0</span>
                                 <span class="text-label-caps stat-label">Projects Delivered</span>
                             </div>
                         </div>
                         <div class="about-trust">
-                            <div class="trust-badge">
+                            <div class="trust-badge" data-aos="zoom-in" data-aos-delay="300">
                                 <span class="material-symbols-outlined"
                                     style="font-variation-settings: 'FILL' 1;">verified</span>
                                 RERA Registered
                             </div>
-                            <div class="trust-badge">
+                            <div class="trust-badge" data-aos="zoom-in" data-aos-delay="400">
                                 <span class="material-symbols-outlined"
                                     style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
                                 ISO Certified
                             </div>
-                            <div class="trust-badge">
+                            <div class="trust-badge" data-aos="zoom-in" data-aos-delay="500">
                                 <span class="material-symbols-outlined"
                                     style="font-variation-settings: 'FILL' 1;">shield</span>
                                 Insured Projects
@@ -124,7 +126,7 @@
 
                 <div class="swiper services-swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="100">
                             <div class="service-card">
                                 <span class="service-number">01</span>
                                 <div class="service-accent"></div>
@@ -141,7 +143,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
                             <div class="service-card">
                                 <span class="service-number">02</span>
                                 <div class="service-accent"></div>
@@ -158,7 +160,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
                             <div class="service-card">
                                 <span class="service-number">03</span>
                                 <div class="service-accent"></div>
@@ -175,7 +177,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-card">
                                 <span class="service-number">04</span>
                                 <div class="service-accent"></div>
@@ -192,7 +194,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
                             <div class="service-card">
                                 <span class="service-number">05</span>
                                 <div class="service-accent"></div>
@@ -232,20 +234,20 @@
 
                 <!-- Tab Navigation -->
                 <div class="pkg-tabs" data-aos="fade-up">
-                    <button class="pkg-tab" data-tab="basic">
+                    <button class="pkg-tab" data-tab="basic" data-aos="zoom-in" data-aos-delay="100">
                         <span class="pkg-tab-name">Basic</span>
                         <span class="pkg-tab-price">₹1,940<small>/sq.ft</small></span>
                     </button>
-                    <button class="pkg-tab active" data-tab="classic">
+                    <button class="pkg-tab active" data-tab="classic" data-aos="zoom-in" data-aos-delay="200">
                         <!-- <span class="pkg-tab-badge">Popular</span> -->
                         <span class="pkg-tab-name">Classic</span>
                         <span class="pkg-tab-price">₹2,070<small>/sq.ft</small></span>
                     </button>
-                    <button class="pkg-tab" data-tab="premium">
+                    <button class="pkg-tab" data-tab="premium" data-aos="zoom-in" data-aos-delay="300">
                         <span class="pkg-tab-name">Premium</span>
                         <span class="pkg-tab-price">₹2,400<small>/sq.ft</small></span>
                     </button>
-                    <button class="pkg-tab" data-tab="royale">
+                    <button class="pkg-tab" data-tab="royale" data-aos="zoom-in" data-aos-delay="400">
                         <span class="pkg-tab-name">Royale</span>
                         <span class="pkg-tab-price">₹2,640<small>/sq.ft</small></span>
                     </button>
@@ -267,15 +269,20 @@
                             <!-- <div class="pkg-panel-divider"></div> -->
                             <span class="pkg-panel-hl-title">What's Included</span>
                             <ul class="pkg-panel-highlights">
-                                <li><span class="material-symbols-outlined">check_circle</span>Trusted brand steel &amp;
+                                <li data-aos="fade-left" data-aos-delay="100"><span
+                                        class="material-symbols-outlined">check_circle</span>Trusted brand steel &amp;
                                     cement</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Standard floor tiles upto
+                                <li data-aos="fade-left" data-aos-delay="200"><span
+                                        class="material-symbols-outlined">check_circle</span>Standard floor tiles upto
                                     ₹50/sqft</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Standard flush doors
+                                <li data-aos="fade-left" data-aos-delay="300"><span
+                                        class="material-symbols-outlined">check_circle</span>Standard flush doors
                                     &amp; window finish</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Tractor Emulsion finish
+                                <li data-aos="fade-left" data-aos-delay="400"><span
+                                        class="material-symbols-outlined">check_circle</span>Tractor Emulsion finish
                                 </li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Essential kitchen &amp;
+                                <li data-aos="fade-left" data-aos-delay="500"><span
+                                        class="material-symbols-outlined">check_circle</span>Essential kitchen &amp;
                                     bathroom fittings</li>
                             </ul>
                             <a class="pkg-panel-cta" href="#contact">Request Quote <span
@@ -300,15 +307,20 @@
                             <div class="pkg-panel-divider"></div>
                             <span class="pkg-panel-hl-title">What's Included</span>
                             <ul class="pkg-panel-highlights">
-                                <li><span class="material-symbols-outlined">check_circle</span>Superior brand steel
+                                <li data-aos="fade-left" data-aos-delay="100"><span
+                                        class="material-symbols-outlined">check_circle</span>Superior brand steel
                                     &amp; cement</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Refined floor tiles upto
+                                <li data-aos="fade-left" data-aos-delay="200"><span
+                                        class="material-symbols-outlined">check_circle</span>Refined floor tiles upto
                                     ₹100/sqft</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Elegant teak doors &amp;
+                                <li data-aos="fade-left" data-aos-delay="300"><span
+                                        class="material-symbols-outlined">check_circle</span>Elegant teak doors &amp;
                                     window finish</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Tractor Shyne Emulsion
+                                <li data-aos="fade-left" data-aos-delay="400"><span
+                                        class="material-symbols-outlined">check_circle</span>Tractor Shyne Emulsion
                                     finish</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Stylish kitchen &amp;
+                                <li data-aos="fade-left" data-aos-delay="500"><span
+                                        class="material-symbols-outlined">check_circle</span>Stylish kitchen &amp;
                                     bathroom fittings</li>
                             </ul>
                             <a class="pkg-panel-cta" href="#contact">Request Quote <span
@@ -333,15 +345,20 @@
                             <div class="pkg-panel-divider"></div>
                             <span class="pkg-panel-hl-title">What's Included</span>
                             <ul class="pkg-panel-highlights">
-                                <li><span class="material-symbols-outlined">check_circle</span>Superior brand steel
+                                <li data-aos="fade-left" data-aos-delay="100"><span
+                                        class="material-symbols-outlined">check_circle</span>Superior brand steel
                                     &amp; cement</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Premium floor tiles upto
+                                <li data-aos="fade-left" data-aos-delay="200"><span
+                                        class="material-symbols-outlined">check_circle</span>Premium floor tiles upto
                                     ₹140/sqft</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Designer teak doors &amp;
+                                <li data-aos="fade-left" data-aos-delay="300"><span
+                                        class="material-symbols-outlined">check_circle</span>Designer teak doors &amp;
                                     window finish</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Apcolite Premium finish
+                                <li data-aos="fade-left" data-aos-delay="400"><span
+                                        class="material-symbols-outlined">check_circle</span>Apcolite Premium finish
                                 </li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Quality kitchen &amp;
+                                <li data-aos="fade-left" data-aos-delay="500"><span
+                                        class="material-symbols-outlined">check_circle</span>Quality kitchen &amp;
                                     bathroom fittings</li>
                             </ul>
                             <a class="pkg-panel-cta" href="#contact">Request Quote <span
@@ -366,15 +383,20 @@
                             <div class="pkg-panel-divider"></div>
                             <span class="pkg-panel-hl-title">What's Included</span>
                             <ul class="pkg-panel-highlights">
-                                <li><span class="material-symbols-outlined">check_circle</span>Superior brand steel
+                                <li data-aos="fade-left" data-aos-delay="100"><span
+                                        class="material-symbols-outlined">check_circle</span>Superior brand steel
                                     &amp; cement</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Lavish floor tiles upto
+                                <li data-aos="fade-left" data-aos-delay="200"><span
+                                        class="material-symbols-outlined">check_circle</span>Lavish floor tiles upto
                                     ₹160/sqft</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Designer teak doors &amp;
+                                <li data-aos="fade-left" data-aos-delay="300"><span
+                                        class="material-symbols-outlined">check_circle</span>Designer teak doors &amp;
                                     window finish</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Apex Ultima Exterior
+                                <li data-aos="fade-left" data-aos-delay="400"><span
+                                        class="material-symbols-outlined">check_circle</span>Apex Ultima Exterior
                                     finish</li>
-                                <li><span class="material-symbols-outlined">check_circle</span>Lavish fittings for
+                                <li data-aos="fade-left" data-aos-delay="500"><span
+                                        class="material-symbols-outlined">check_circle</span>Lavish fittings for
                                     kitchen &amp; bathroom</li>
                             </ul>
                             <a class="pkg-panel-cta" href="#contact">Request Quote <span
@@ -497,7 +519,8 @@
                             <p>We use only the highest grade materials to ensure the longevity and strength of every
                                 structure.</p>
                             <div class="wcu-progress">
-                                <div class="wcu-progress-bar" style="width: 95%"></div>
+                                <div class="wcu-progress-bar" style="width: 95%" data-aos="fade-right"
+                                    data-aos-delay="200"></div>
                             </div>
                         </div>
                         <div class="wcu-feature" data-aos="fade-left" data-aos-delay="100">
@@ -511,7 +534,8 @@
                             <p>Our project management ensures every milestone is met on schedule, without compromising
                                 quality.</p>
                             <div class="wcu-progress">
-                                <div class="wcu-progress-bar" style="width: 98%"></div>
+                                <div class="wcu-progress-bar" style="width: 98%" data-aos="fade-right"
+                                    data-aos-delay="300"></div>
                             </div>
                         </div>
                         <div class="wcu-feature" data-aos="fade-left" data-aos-delay="200">
@@ -525,7 +549,8 @@
                             <p>Our team of certified professionals brings decades of collective experience to your
                                 project.</p>
                             <div class="wcu-progress">
-                                <div class="wcu-progress-bar" style="width: 90%"></div>
+                                <div class="wcu-progress-bar" style="width: 90%" data-aos="fade-right"
+                                    data-aos-delay="400"></div>
                             </div>
                         </div>
                         <div class="wcu-feature" data-aos="fade-left" data-aos-delay="300">
@@ -539,7 +564,8 @@
                             <p>No hidden costs. We provide clear, detailed estimates and maintain financial integrity
                                 throughout.</p>
                             <div class="wcu-progress">
-                                <div class="wcu-progress-bar" style="width: 100%"></div>
+                                <div class="wcu-progress-bar" style="width: 100%" data-aos="fade-right"
+                                    data-aos-delay="500"></div>
                             </div>
                         </div>
                     </div>
@@ -563,22 +589,22 @@
                                 free estimate.</p>
                         </div>
 
-                        <div class="contact-details" data-aos="fade-up" data-aos-delay="200">
-                            <div class="contact-detail-item">
+                        <div class="contact-details">
+                            <div class="contact-detail-item" data-aos="fade-up" data-aos-delay="200">
                                 <div class="detail-icon"><span class="material-symbols-outlined">call</span></div>
                                 <div class="detail-text">
                                     <span class="detail-label">Call Us</span>
                                     <span class="detail-value">+91 98765 43210</span>
                                 </div>
                             </div>
-                            <div class="contact-detail-item">
+                            <div class="contact-detail-item" data-aos="fade-up" data-aos-delay="300">
                                 <div class="detail-icon"><span class="material-symbols-outlined">mail</span></div>
                                 <div class="detail-text">
                                     <span class="detail-label">Email Us</span>
                                     <span class="detail-value">contact@squareftgroup.com</span>
                                 </div>
                             </div>
-                            <div class="contact-detail-item">
+                            <div class="contact-detail-item" data-aos="fade-up" data-aos-delay="400">
                                 <div class="detail-icon"><span class="material-symbols-outlined">location_on</span>
                                 </div>
                                 <div class="detail-text">
