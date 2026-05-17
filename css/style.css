@@ -2153,7 +2153,13 @@ h1 {
 	font-size: 18px;
 	font-weight: 700;
 	color: #fff;
+	transition: color 0.3s ease;
 }
+
+a.detail-value:hover {
+	color: var(--brand-red);
+}
+
 
 
 .contact-form {

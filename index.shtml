@@ -58,18 +58,15 @@
                             <h1>Engineered for Excellence</h1>
                         </div>
                         <p class="text-body-md">
-                            With over a decade of industry leadership, SQUARE FT GROUP combines architectural vision
-                            with structural integrity. We don't just manage construction; we command every detail to
-                            ensure flawless execution. Our commitment to quality has established us as the premier
-                            choice for clients who demand perfection.
+                            Our team focuses on creating strong, functional, and visually impressive spaces through expert planning, advanced construction techniques, and attention to every detail. From concept to completion, we ensure each project is executed with professionalism, transparency, and on-time delivery.
                         </p>
                         <div class="about-stats">
                             <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
-                                <span class="text-stat-number stat-number" data-count="10" data-suffix="+">0</span>
+                                <span class="text-stat-number stat-number" data-count="3" data-suffix="+">0</span>
                                 <span class="text-label-caps stat-label">Years Experience</span>
                             </div>
                             <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
-                                <span class="text-stat-number stat-number" data-count="150" data-suffix="+">0</span>
+                                <span class="text-stat-number stat-number" data-count="17" data-suffix="+">0</span>
                                 <span class="text-label-caps stat-label">Projects Delivered</span>
                             </div>
                         </div>
@@ -494,7 +491,7 @@
                         <div class="wcu-image-wrap">
                             <img src="images/pkg-classic.png" alt="Construction excellence" class="wcu-image">
                             <div class="wcu-stat-box">
-                                <span class="wcu-stat-num">500+</span>
+                                <span class="wcu-stat-num">17+</span>
                                 <span class="wcu-stat-label">Projects Delivered</span>
                             </div>
                         </div>
@@ -594,14 +591,14 @@
                                 <div class="detail-icon"><span class="material-symbols-outlined">call</span></div>
                                 <div class="detail-text">
                                     <span class="detail-label">Call Us</span>
-                                    <span class="detail-value">+91 98765 43210</span>
+                                    <a href="tel:+916366813093" class="detail-value">+91 6366813093</a>
                                 </div>
                             </div>
                             <div class="contact-detail-item" data-aos="fade-up" data-aos-delay="300">
                                 <div class="detail-icon"><span class="material-symbols-outlined">mail</span></div>
                                 <div class="detail-text">
                                     <span class="detail-label">Email Us</span>
-                                    <span class="detail-value">contact@squareftgroup.com</span>
+                                    <a href="mailto:contact@squareftgroup.com" class="detail-value">contact@squareftgroup.com</a>
                                 </div>
                             </div>
                             <div class="contact-detail-item" data-aos="fade-up" data-aos-delay="400">
@@ -623,7 +620,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                                <input type="tel" id="phone" name="phone" placeholder="+916366813093" required>
                             </div>
                         </div>
                         <div class="form-row">
