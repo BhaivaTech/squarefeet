@@ -666,11 +666,16 @@
 
   .header-logo {
     font-size: 17px;
+    max-width: 150px
   }
 
   .header-inner {
     padding: 15px 15px;
   }
+
+  .footer-logo-img {
+    max-width: 140px;
+}
 }
 
 @media (max-width: 1024px) {
