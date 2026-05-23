@@ -37,7 +37,7 @@
                     </div>
                     <h1 class="hero-modern-title" data-aos="fade-right" data-aos-delay="100">
                        Building Strength.<br>
-                        <span class="text-outline">Delivering Strength.</span>
+                        <span class="text-outline">Delivering Trust.</span>
                     </h1>
                     
                     <div class="hero-modern-actions" data-aos="fade251-up" data-aos-delay="500">
@@ -164,6 +164,22 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
+                            <div class="service-card">
+                                <span class="service-number">06</span>
+                                <div class="service-accent"></div>
+                                <div class="service-icon">
+                                    <span class="material-symbols-outlined">architecture</span>
+                                </div>
+                                <h3 class="text-h3">Architectural Design</h3>
+                                <p class="text-body-md">
+                                    Creative and functional architectural designs that blend aesthetics with structural integrity for lasting impressions.
+                                </p>
+                                <a href="#contact" class="service-link">
+                                    Learn More <span class="material-symbols-outlined">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
                         <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
                             <div class="service-card">
                                 <span class="service-number">04</span>
@@ -198,22 +214,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
-                            <div class="service-card">
-                                <span class="service-number">06</span>
-                                <div class="service-accent"></div>
-                                <div class="service-icon">
-                                    <span class="material-symbols-outlined">architecture</span>
-                                </div>
-                                <h3 class="text-h3">Architectural Design</h3>
-                                <p class="text-body-md">
-                                    Creative and functional architectural designs that blend aesthetics with structural integrity for lasting impressions.
-                                </p>
-                                <a href="#contact" class="service-link">
-                                    Learn More <span class="material-symbols-outlined">arrow_forward</span>
-                                </a>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="services-scrollbar"></div>
                 </div>
@@ -237,23 +238,28 @@
 
                 <!-- Tab Navigation -->
                 <div class="pkg-tabs" data-aos="fade-up">
+                    <div class="button-packages">
                     <button class="pkg-tab" data-tab="basic" data-aos="zoom-in" data-aos-delay="100">
-                        <span class="pkg-tab-name">Basic</span>
-                        <span class="pkg-tab-price">₹1,940<small>/sq.ft</small></span>
+                        <span class="pkg-tab-name">Start Built</span>
+                        <span class="pkg-tab-price">₹1850<small>/sq.ft</small></span>
                     </button>
+                    
                     <button class="pkg-tab active" data-tab="classic" data-aos="zoom-in" data-aos-delay="200">
                         <!-- <span class="pkg-tab-badge">Popular</span> -->
-                        <span class="pkg-tab-name">Classic</span>
-                        <span class="pkg-tab-price">₹2,070<small>/sq.ft</small></span>
+                        <span class="pkg-tab-name">Smart Built</span>
+                        <span class="pkg-tab-price">₹2100<small>/sq.ft</small></span>
                     </button>
+                    </div>
+                    <div class="button-packages">
                     <button class="pkg-tab" data-tab="premium" data-aos="zoom-in" data-aos-delay="300">
-                        <span class="pkg-tab-name">Premium</span>
-                        <span class="pkg-tab-price">₹2,400<small>/sq.ft</small></span>
+                        <span class="pkg-tab-name">Premium Built</span>
+                        <span class="pkg-tab-price">₹2300<small>/sq.ft</small></span>
                     </button>
                     <button class="pkg-tab" data-tab="royale" data-aos="zoom-in" data-aos-delay="400">
-                        <span class="pkg-tab-name">Royale</span>
-                        <span class="pkg-tab-price">₹2,640<small>/sq.ft</small></span>
+                        <span class="pkg-tab-name">Luxury Built</span>
+                        <span class="pkg-tab-price">₹2700<small>/sq.ft</small></span>
                     </button>
+                    </div>
                 </div>
 
                 <!-- Tab Panels -->
