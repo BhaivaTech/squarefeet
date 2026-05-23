@@ -1643,8 +1643,8 @@ h1 {
 	/* MASSIVE */
 	font-weight: 900;
 	line-height: 1;
-	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.08);
-	/* Premium outline */
+	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.35);
+	color: rgba(255, 255, 255, 0.08);
 	z-index: 0;
 	transition: all 0.6s ease;
 	user-select: none;

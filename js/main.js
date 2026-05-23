@@ -157,4 +157,79 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    // --- Contact Form Handling ---
+    const contactForm = document.getElementById('contactForm');
+    const formResponse = document.getElementById('form-response');
+
+    if (contactForm && formResponse) {
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const submitBtn = contactForm.querySelector('button[type="submit"]');
+            const originalBtnText = submitBtn.textContent;
+
+            // Basic validation
+            const name  = contactForm.name.value.trim();
+            const phone = contactForm.phone.value.trim();
+
+            if (!name || !phone) {
+                showFormResponse('Please provide your name and phone number.', 'error');
+                return;
+            }
+
+            // Sending state
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+
+            try {
+                // reCAPTCHA v3 token
+                const token = await grecaptcha.execute('6LegmvcsAAAAADt8Zn7aOU2tu93R8Fv9tQOxFqx8', { action: 'contact_form' });
+
+                const formData = new FormData(contactForm);
+                formData.append('g-recaptcha-response', token);
+
+                const response = await fetch('contact-process.php', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    showFormResponse(result.message, 'success');
+                    contactForm.reset();
+                } else {
+                    showFormResponse(result.message || 'Something went wrong. Please try again.', 'error');
+                }
+            } catch (error) {
+                showFormResponse('Failed to send message. Please check your connection.', 'error');
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalBtnText;
+            }
+        });
+    }
+
+    function showFormResponse(message, type) {
+        formResponse.textContent = message;
+        formResponse.style.display = 'block';
+        formResponse.style.marginTop = '12px';
+        formResponse.style.padding = '12px 16px';
+        formResponse.style.borderRadius = '8px';
+        formResponse.style.fontSize = '14px';
+        formResponse.style.fontWeight = '500';
+
+        if (type === 'success') {
+            formResponse.style.backgroundColor = '#e8f5e9';
+            formResponse.style.color = '#1b5e20';
+            formResponse.style.border = '1px solid #a5d6a7';
+            setTimeout(() => { formResponse.style.display = 'none'; }, 6000);
+        } else {
+            formResponse.style.backgroundColor = '#fce4ec';
+            formResponse.style.color = '#880e4f';
+            formResponse.style.border = '1px solid #f48fb1';
+        }
+    }
 });
+
